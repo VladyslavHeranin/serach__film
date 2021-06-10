@@ -1,0 +1,239 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body{
+    background-color: rgb(7, 7, 65);
+}
+
+.title{
+    color: rgb(254, 255, 205);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lists{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+      background-color: rgb(7, 7, 65);
+}
+
+.lists__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+   border: solid 1px rgb(254, 255, 205);
+    border-radius: 15px;
+    margin: 10px;
+    color: rgb(254, 255, 205);
+}
+
+.img__item{
+    border-radius: 10px;
+}
+
+.title__item{
+    color: rgb(254, 255, 205);
+    font-size: 20px;
+    margin: 5px , 5px , 5px , 5px;
+    
+}
+
+.img__not{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(177, 177, 177);
+    width: 220px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.button__block{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.butten__block-text{
+    margin-left: 10px ;
+    color: rgb(254, 255, 205);
+    cursor: pointer;
+}
+
+.butten__item{
+background: linear-gradient(90deg, rgb(27, 22, 119) 0%, rgb(17, 17, 160) 35%, rgb(1, 197, 128) 100%);
+border-radius: 5px;
+color: rgb(254, 255, 205);
+cursor: pointer;
+}
+
+
+.datel__block{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(7, 7, 65);
+    border-radius: 15px ;
+    border: solid 1px rgb(254, 255, 205);
+    margin-top: 15px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.info{
+    display: flex ;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 20px;
+    flex-direction: column;
+    color: rgb(254, 255, 205);
+}
+
+.info__item-title{
+    font-size: 20px;
+    color: rgb(255, 251, 238);
+}
+
+.info__item{
+    color: rgb(255, 251, 121);
+}
+
+.info__item span{
+    color:    rgb(254, 255, 205);;
+}
+
+.input__block{
+    display: flex;
+}
+
+.input__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(27, 22, 119) 0%, rgb(17, 17, 160) 35%, rgb(1, 197, 128) 100%);
+    border-radius: 5px;
+    color: rgb(254, 255, 205);
+    width: 100px;
+    cursor: pointer;
+}
+
+.search__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(27, 22, 119) 0%, rgb(17, 17, 160) 35%, rgb(1, 197, 128) 100%);
+    border-radius: 5px;
+    color: rgb(254, 255, 205);
+    margin-left: 20px ;
+    min-height: 50px;
+    min-width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100px;
+    color: rgb(254, 255, 205);
+}
+
+
+.serach__title{
+    font-size: 35px;
+}
+
+.none_result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(254, 255, 205);
+    height: 200px;
+    border-radius: 15px;
+    width: 100%;
+    border:1px solid rgb(254, 255, 205);
+    margin-top: 20px;
+}
+
+
+
+ @media (max-width: 1400px) { 
+    .lists__item{
+        width: 45%;
+    }
+   
+ }
+
+ @media (max-width: 800px) { 
+    .lists__item{
+        width: 60%;
+    }
+   
+ }
+
+
+ @media (max-width: 700px) { 
+    .lists__item{
+        width: 80%;
+    }
+
+    
+.datel__block{
+    flex-wrap: wrap;
+}
+
+.img__item{
+  width: 80%;
+}
+
+.img__not{
+    width: 80%;
+}
+
+.info{
+    width: 90%;
+}
+
+.search{
+   flex-wrap: wrap;
+   flex-direction: column-reverse;
+   justify-content: center;
+   width: 100%;
+}
+
+
+.search__button{
+    min-width: 100%;
+    margin-top: 5px;
+    margin-left: 0px ;
+}
+
+.serach__title{
+    width: 100%;
+}
+   
+ }
+
+ @media (max-width: 600px) { 
+    .lists__item{
+        width: 100%;
+    }
+   
+ }
+
+
+
+
+
+
+
+
